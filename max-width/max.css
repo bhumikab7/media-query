@@ -1,0 +1,191 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: lightgoldenrodyellow
+}
+.navbar
+{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    text-transform: capitalize;
+    border-bottom: 2px solid crimson;
+}
+.navbarcontainer
+{
+    height: 75px;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    height: 80px;
+    width: 12%;
+}
+.logo img
+{
+    height: 100%;
+    width: 100%;
+}
+.menu
+{
+    height: 40px;
+    width: 50%;
+}
+.menu ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li
+{
+    list-style: none;
+}
+.menu ul li a
+{
+    color: crimson;
+    font-size: 25px;
+    text-decoration: none;
+}
+.menu ul li a:hover
+{
+    color:black;
+}
+.login
+{
+    height: 40px;
+    width: 15%;
+    text-align: center;
+}
+.login a
+{
+    text-decoration: none;
+    color: crimson;
+    font-size: 30px;
+}
+.login a:hover
+{
+    color: sandybrown;
+}
+.banner
+{
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    /* background-color: aqua; */
+}
+.banner img
+{
+    height: 100%;
+    width: 100%;
+    margin-top:75px ;
+}
+.boxcontainer
+{
+    height: 450px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top:100px ;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.box
+{
+    height: 250px;
+    width: 24.5%;
+    /* background-color: red; */
+    border: 2px solid black;
+}
+.box img
+{
+    height: 100%;
+    width: 100%;
+}
+.box:hover
+{
+    border: 2px solid crimson;
+}
+.mainfooter
+{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-top: 2px solid crimson;
+}
+.mainfooter .footer
+{
+    height:190px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* background-color: green; */
+    justify-content: space-around;
+     align-items: center;
+}
+.data
+{
+    width: 48%;
+    height: 130px;
+    align-items: center;
+}
+.data img
+{
+    height: 100%;
+}
+.logof
+{
+    height: 190px;
+    width: 49%;
+    /* background-color: aqua; */
+}
+
+.logof img
+{
+    height: 80%;
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 12px;
+}
+.data
+{
+    text-align: left;
+}
+.data h3
+{
+    color: brown;
+    font-size: 20px;
+    padding: 5px;
+}
+.data p
+{
+    color: crimson;
+    font-size: 18px;
+    padding: 5px;
+}
+.since
+{
+width: 20%;
+height: 130px;
+}
+.since p
+{
+    width: 80%;
+    height: 20px;
+    margin: 50px 0px;
+    text-align: center;
+    color: crimson;
+}
