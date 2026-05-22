@@ -1,0 +1,36 @@
+@media(max-width:480px)
+{
+    *
+    {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    .navbar
+    {
+        height: 100px;
+    }
+    .maincontainer
+    {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-container
+    {
+        width: 98%;
+        height: 500px;
+        margin: auto;
+    }
+    .content
+    {
+        height: 40px;
+        width: 100%;
+    }
+    .right-container
+    {
+        width: 98%;
+        height: 80px;
+        margin: auto;
+    }
+}
